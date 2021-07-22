@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import {
   BiChevronDown,
   BiChevronRight,
@@ -24,7 +24,7 @@ const NavSm = () => {
 const NavMd = () => {
   return (
     <>
-      <div className="w-full flex items-center gap-2 bg-white px-3 py-1.5 rounded-sm mt-1">
+      <div className=" w-full flex items-center gap-2 bg-white px-3 py-1.5 rounded-sm mt-1">
         <BiSearch className="text-lg" />
         <input
           type="search"
