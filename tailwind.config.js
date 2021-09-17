@@ -14,7 +14,7 @@ module.exports = {
           600: "#4b5368",
           700: "#353b4b",
           800: "#1f242f",
-          900: "#080c16",
+          900: "#2b3148", // <- Premier color
         },
 
         signInColor: {

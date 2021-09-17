@@ -87,9 +87,13 @@ const Premier = () => {
 
   return (
     <>
+      <div className="flex flex-col items-start pl-4 text-white">
+        <h3 className="text-2xl font-bold">Premieres</h3>
+        <p>Brand new releases every Friday</p>
+      </div>
       <Slider {...settings}>
         {PremierImages.map((image) => (
-          <Poster {...image} />
+          <Poster {...image} isDark />
         ))}
       </Slider>
     </>
