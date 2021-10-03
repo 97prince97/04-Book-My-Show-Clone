@@ -4,11 +4,11 @@ const Poster = (props) => {
   return (
     <>
       <div className="flex flex-col items-start gap-2 px-4">
-        <div className="w-full h-80">
+        <div className="h-40 md:h-80">
           <img
             src={props.src}
             alt={props.alt}
-            className="w-full h-full rounded-xl"
+            className="w-full h-full rounded-md"
           />
         </div>
         <h3
